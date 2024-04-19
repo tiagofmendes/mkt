@@ -1,0 +1,105 @@
+.menu {
+    background-color: #444;
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu a{
+    display: block;
+    text-align: center;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+
+.menu a:hover{
+    background-color: #00BFFF;
+}
+
+/* .ativo{
+    background-color: #4682B4;
+} */
+
+ion-icon {
+    color: #F8F8FF;
+    font-size: 34px;
+}
+
+#apagar {
+    color: #444;
+    font-size: 25px;
+}
+
+.firewall {
+    background-color: #F8F8FF;
+    position: block;
+    width: 50%;
+
+}
+
+.firewall td {
+    text-align: center;
+    padding: 15px; 
+}
+
+.firewall tr {
+    width: 50%;
+    padding: 15px; 
+}
+
+.firewall th {
+    padding: 15px; 
+}
+
+.firewall thead{
+    border: 3px solid #00BFFF;
+    text-align: center;
+    
+}
+
+.firewall tbody{
+    border: 3px solid #00BFFF;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: #00BFFF;
+    margin-left: 25%;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-group {
+    width: 900px;
+}
+
+#form_1 {
+    border: 2px solid #F8F8FF;
+    border-radius: 15px;
+    margin-right: 30%;
+    padding: 50px;
+}
+
+#form_2 {
+    border: 2px solid #F8F8FF;
+    border-radius: 15px;
+    margin-right: 30%;
+    padding: 1%;
+    margin-right: 63%;
+}
+
+#nao {
+    margin-left: 25%;
+}
+
+#sim {
+    margin-left: 25%;
+}
+
+.info {
+    color: #F8F8FF
+}
